@@ -12,7 +12,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 import io.netty.handler.codec.LengthFieldPrepender;
 
-public class WebSocketServer {
+public class EchoServer {
 	public void bind(int port) throws InterruptedException{
 		
 		ServerBootstrap b = new ServerBootstrap();

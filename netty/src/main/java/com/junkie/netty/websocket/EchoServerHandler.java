@@ -4,7 +4,7 @@ import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
-public class WebSocketServerHandler extends	SimpleChannelInboundHandler<Object> {
+public class EchoServerHandler extends	SimpleChannelInboundHandler<Object> {
 
 	@Override
 	protected void messageReceived(ChannelHandlerContext ctx, Object msg)
